@@ -1,0 +1,28 @@
+Categories:
+  - System
+License: Proprietary
+AuthorName: Brad White
+WebSite: https://apps.bradwhite.us/
+Name: Twyn Keyboard
+Summary: A predictive keyboard for phones with real keys
+Description: |
+  I built Twyn Keyboard because the keyboards for phones with real keys
+  kept guessing wrong. On a keypad with two letters on each key, press
+  each key once and the word you meant is in the field by the time you
+  finish it. Space keeps it. If it picked the other word, tap the one you
+  want.
+
+  On a full keyboard, what you type stays as typed. The strip offers the
+  word, a correction or the rest of it, and Space takes the one in the
+  middle. On either one, hold a key for the symbol printed on it.
+
+  When there are no keys to type on, Touch puts keys on the screen, with
+  swipe typing, and you can size them to fit.
+
+  It picks words from what you wrote before, learns your words and
+  suggests the next one. Open it once after installing to turn it on.
+
+RequiresRoot: false
+
+# Only builds signed with this key are published (SHA-256 of the signing certificate).
+AllowedAPKSigningKeys: 58bb11db65b2fcf1393f13cbd7bf39002f7987b1f846c5fc1fbc740da8140d69

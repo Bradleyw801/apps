@@ -1,0 +1,1 @@
+Put new builds here, whole or split into NAME.apk.part00, .part01 and so on. The publish workflow joins the pieces, checks each build (right signing key, higher version code), moves it into fdroid/repo and deletes the old one.

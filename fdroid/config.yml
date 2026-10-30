@@ -1,0 +1,26 @@
+---
+# Brad White's apps: an F-Droid-format repository served from GitHub Pages at apps.bradwhite.us.
+# Secrets never live in this file. The index-signing keystore is restored from the
+# FDROID_KEYSTORE_B64 GitHub secret at build time, and FDROID_KEYSTORE_PASS is the password
+# of both the keystore and the key.
+
+repo_url: https://apps.bradwhite.us/repo
+repo_name: Brad White's apps
+repo_description: >-
+  The Android apps I have built: Slickrock Station and its RetroArch build, Twyn Keyboard,
+  and Paigr and Paigr Relay for reading your texts on another phone. Install them from here
+  and their updates come through the same way.
+repo_icon: icon.png
+
+# No archive repo: the newest version of each app is what gets served.
+archive_older: 0
+
+keystore: keystore.p12
+repo_keyalias: apps
+keystorepass: {env: FDROID_KEYSTORE_PASS}
+keypass: {env: FDROID_KEYSTORE_PASS}
+keydname: CN=Apps by Brad White, OU=F-Droid, O=Brad White, C=US
+
+# Everything here is a prebuilt APK, so skip the source checks fdroidserver does for apps it builds.
+make_current_version_link: false
+update_stats: false
