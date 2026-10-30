@@ -17,8 +17,8 @@ The install page has the QR code: https://apps.bradwhite.us/
 | Slickrock Station | `com.bradwhite.slickrock` | A game launcher that sets up RetroArch for you, for physical keys, a controller or a touchscreen |
 | RetroArch for Slickrock | `com.bradwhite.slickrock.retroarch` | The RetroArch build Slickrock Station runs, with a few input patches |
 | Twyn Keyboard | `com.bradwhite.twyn` | A predictive keyboard for phones with real keys, with on-screen keys when there are none |
-| Paigr Relay | `com.textrelay.relay` | Sends the texts from the phone with your SIM to your Paigr inbox |
-| Paigr | `com.textrelay.texts` | Reads and answers those texts on another phone |
+| Paigr Relay | `com.textrelay.relay` | Beta. Sends the texts from the phone with your SIM to your Paigr inbox |
+| Paigr | `com.textrelay.texts` | Beta. Reads and answers those texts on another phone |
 
 If you'd rather skip F-Droid, each app's current build is also on the install page under its name:
 `Slickrock-Station.apk`, `RetroArch-for-Slickrock.apk`, `Twyn-Keyboard.apk`, `Paigr-Relay.apk` and `Paigr.apk`. A `.json`

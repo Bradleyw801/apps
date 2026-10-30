@@ -163,10 +163,22 @@ jobs:
         if: steps.go.outputs.publish == 'true'
         env:
           FDROID_KEYSTORE_B64: ${{ secrets.FDROID_KEYSTORE_B64 }}
+          FDROID_KEYSTORE_PASS: ${{ secrets.FDROID_KEYSTORE_PASS }}
         run: |
           set -euo pipefail
           test -n "$FDROID_KEYSTORE_B64"
-          printf '%s' "$FDROID_KEYSTORE_B64" | tr -d '\r\n' | base64 --decode > fdroid/keystore.p12
+          printf '%s' "$FDROID_KEYSTORE_B64" | tr -d '\r\n ' | base64 --decode > fdroid/keystore.p12
+          # Say which secret is wrong before fdroid update fails with "Failed to get repo pubkey"
+          size=$(stat -c%s fdroid/keystore.p12)
+          if ! keytool -list -keystore fdroid/keystore.p12 -storetype PKCS12 -storepass:env FDROID_KEYSTORE_PASS >/dev/null 2>&1; then
+            echo "::error::The keystore from FDROID_KEYSTORE_B64 ($size bytes) doesn't open with FDROID_KEYSTORE_PASS (${#FDROID_KEYSTORE_PASS} characters). The keystore is 4340 bytes and the password 44 characters."
+            exit 1
+          fi
+          fp=$(keytool -exportcert -alias apps -keystore fdroid/keystore.p12 -storetype PKCS12 -storepass:env FDROID_KEYSTORE_PASS | sha256sum | cut -d' ' -f1 | tr a-f A-F)
+          if [ "$fp" != "$(tr -d '\r\n' < fdroid/FINGERPRINT.txt)" ]; then
+            echo "::error::The key in FDROID_KEYSTORE_B64 has fingerprint $fp, not the one in fdroid/FINGERPRINT.txt."
+            exit 1
+          fi
 
       - name: Build the signed index
         if: steps.go.outputs.publish == 'true'
