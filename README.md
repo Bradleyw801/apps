@@ -3,11 +3,11 @@
 These are the Android apps I have built, in one F-Droid repository. Add it to F-Droid, Droid-ify or any other
 F-Droid client and you can install the apps and get their updates from there.
 
-The install page has the QR code: https://apps.bradwhite.us/
+The install page has the QR code: https://bradleyw801.github.io/apps/
 
 | | |
 | --- | --- |
-| Address | `https://apps.bradwhite.us/repo` |
+| Address | `https://bradleyw801.github.io/apps/repo` |
 | Fingerprint | `F5D063BDF9290A290A5EB2DE6520648C7E742E2FA8E3E734C8826D33782AD58B` |
 
 ## The apps

@@ -1,7 +1,7 @@
 name: Publish repository
 
 # Vets new APKs, builds the signed F-Droid index and publishes it, with the install page,
-# to GitHub Pages (apps.bradwhite.us).
+# to GitHub Pages (bradleyw801.github.io/apps).
 #
 # New builds arrive two ways:
 #  - Slickrock Station and RetroArch for Slickrock are published as releases of

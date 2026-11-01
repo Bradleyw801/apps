@@ -1,10 +1,10 @@
 ---
-# Brad White's apps: an F-Droid-format repository served from GitHub Pages at apps.bradwhite.us.
+# Brad White's apps: an F-Droid-format repository served from GitHub Pages at bradleyw801.github.io/apps.
 # Secrets never live in this file. The index-signing keystore is restored from the
 # FDROID_KEYSTORE_B64 GitHub secret at build time, and FDROID_KEYSTORE_PASS is the password
 # of both the keystore and the key.
 
-repo_url: https://apps.bradwhite.us/repo
+repo_url: https://bradleyw801.github.io/apps/repo
 repo_name: Brad White's apps
 repo_description: >-
   The Android apps I have built: Slickrock Station and its RetroArch build, Twyn Keyboard,
