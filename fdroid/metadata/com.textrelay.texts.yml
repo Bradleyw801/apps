@@ -6,10 +6,8 @@ WebSite: https://bradleyw801.github.io/apps/
 SourceCode: https://github.com/Bradleyw801/Paigr
 IssueTracker: https://github.com/Bradleyw801/Paigr/issues
 Name: Paigr
-Summary: "Beta: read and answer your texts, RCS included, on any Android phone"
+Summary: Read and answer your texts, RCS included, on any Android phone
 Description: |
-  Paigr is in beta, so expect some rough edges.
-
   Paigr is where you read and answer your texts. It runs on the phone you
   carry, which can be any Android phone, even one with no Google services.
   Paigr Relay, on the phone with your SIM, sends it every conversation,
@@ -20,9 +18,12 @@ Description: |
   already has, and it works with touch or with a keypad's arrows and OK.
   Each conversation gets its own colour. You can search inside a thread, see
   a conversation's photos, files and links, react with an emoji, quote a
-  message in your reply, and send pictures, GIFs and files. New message
-  starts a conversation with any number; the relay phone sends the first
-  text as SMS.
+  message in your reply, and send pictures, videos and files; what won't
+  fit through the relay phone is said up front. New message starts a
+  conversation with any number; the relay phone sends the first text as
+  SMS. Texts that Messages files as spam on the relay phone sit under
+  Filtered, with no notification, and you can move any conversation in or
+  out of Filtered yourself.
 
   You get a notification for each conversation as texts come in, with no
   Google services or push app needed. New texts show up within seconds, and

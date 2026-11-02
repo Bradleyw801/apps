@@ -6,10 +6,8 @@ WebSite: https://bradleyw801.github.io/apps/
 SourceCode: https://github.com/Bradleyw801/Paigr
 IssueTracker: https://github.com/Bradleyw801/Paigr/issues
 Name: Paigr Relay
-Summary: "Beta: sends this phone's texts, RCS included, to Paigr on your other phone"
+Summary: Sends this phone's texts, RCS included, to Paigr on your other phone
 Description: |
-  Paigr Relay is in beta, so expect some rough edges.
-
   Paigr Relay goes on the phone that has your SIM and Google Messages. Every
   text that phone gets goes to your inbox, where Paigr on your other phone
   shows it. That's SMS, MMS and RCS, one-to-one and group chats, with names
@@ -36,8 +34,9 @@ Description: |
   Turn on SMS fallback and replies can still go out when Messages has
   nothing to reply to, and texts to a new number start as SMS from this
   phone. Pictures and files you send from Paigr then go out from this phone
-  as MMS. You can also connect through Tor with Orbot, so
-  the inbox server never sees this phone's IP address.
+  as MMS, so Paigr tells you up front what fits. You can also connect
+  through Tor with Orbot, so the inbox server never sees this phone's IP
+  address.
 
   Paigr Relay reads Messages' notifications, so it needs notification
   access, and Messages notifications have to stay on (they can be silent).
