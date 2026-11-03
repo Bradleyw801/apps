@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Proprietary
+AuthorName: Brad White
+WebSite: https://bradleyw801.github.io/apps/
+Name: Twyn Dansk
+Summary: Danish for Twyn Keyboard
+Description: |
+  Danish for Twyn Keyboard. Install it next to Twyn, then pick Dansk in
+  Twyn's settings under Look, Language. There's nothing to open. Twyn
+  reads its words from it.
+
+  Type æ, ø and å with a and o, the way Danish phones always have, and the
+  word comes back with its letters: "pa" gives "på" and "blabaer" gives
+  "blåbær". On the screen's keys Å sits after P and Æ Ø after L.
+
+  The words come from the Leipzig Corpora Collection (CC BY 4.0).
+
+RequiresRoot: false
+
+# Only builds signed with this key are published (SHA-256 of the signing certificate).
+# Twyn's own key: Twyn reads a language only from a build signed with it.
+AllowedAPKSigningKeys: 58bb11db65b2fcf1393f13cbd7bf39002f7987b1f846c5fc1fbc740da8140d69

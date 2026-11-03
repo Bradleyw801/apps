@@ -26,6 +26,11 @@ Description: |
   It picks words from what you wrote before, learns your words and
   suggests the next one. Open it once after installing to turn it on.
 
+  It types in English. For Danish, German, Spanish, French or Portuguese,
+  install that language from here too (Twyn Dansk, Twyn Deutsch, Twyn
+  Español, Twyn Français or Twyn Português) and pick it in Twyn's
+  settings.
+
 RequiresRoot: false
 
 # Only builds signed with this key are published (SHA-256 of the signing certificate).

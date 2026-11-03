@@ -1,0 +1,23 @@
+Categories:
+  - System
+License: Proprietary
+AuthorName: Brad White
+WebSite: https://bradleyw801.github.io/apps/
+Name: Twyn Deutsch
+Summary: German for Twyn Keyboard
+Description: |
+  German for Twyn Keyboard. Install it next to Twyn, then pick Deutsch in
+  Twyn's settings under Look, Language. There's nothing to open. Twyn
+  reads its words from it.
+
+  Type ä, ö and ü with their plain letters and ß as ss, and the word comes
+  back with them: "fur" gives "für" and "strasse" gives "Straße". Nouns
+  get their capitals, and the screen's keys are QWERTZ with Ü, Ö and Ä.
+
+  The words come from the Leipzig Corpora Collection (CC BY 4.0).
+
+RequiresRoot: false
+
+# Only builds signed with this key are published (SHA-256 of the signing certificate).
+# Twyn's own key: Twyn reads a language only from a build signed with it.
+AllowedAPKSigningKeys: 58bb11db65b2fcf1393f13cbd7bf39002f7987b1f846c5fc1fbc740da8140d69
