@@ -6,9 +6,9 @@ WebSite: https://bradleyw801.github.io/apps/
 Name: Twyn Deutsch
 Summary: German for Twyn Keyboard
 Description: |
-  German for Twyn Keyboard. Install it next to Twyn, then pick Deutsch in
-  Twyn's settings under Look, Language. There's nothing to open. Twyn
-  reads its words from it.
+  German for Twyn Keyboard 3.4 or later. Install it next to Twyn and
+  Twyn switches to German. There's nothing to open: Twyn reads its words
+  from it. The mode button at the left of Twyn's bar switches languages.
 
   Type ä, ö and ü with their plain letters and ß as ss, and the word comes
   back with them: "fur" gives "für" and "strasse" gives "Straße". Nouns

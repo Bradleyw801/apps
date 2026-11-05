@@ -28,8 +28,7 @@ Description: |
 
   It types in English. For Danish, German, Spanish, French or Portuguese,
   install that language from here too (Twyn Dansk, Twyn Deutsch, Twyn
-  Español, Twyn Français or Twyn Português) and pick it in Twyn's
-  settings.
+  Español, Twyn Français or Twyn Português) and Twyn switches to it.
 
 RequiresRoot: false
 

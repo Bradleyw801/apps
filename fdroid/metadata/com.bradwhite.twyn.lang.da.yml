@@ -6,9 +6,9 @@ WebSite: https://bradleyw801.github.io/apps/
 Name: Twyn Dansk
 Summary: Danish for Twyn Keyboard
 Description: |
-  Danish for Twyn Keyboard. Install it next to Twyn, then pick Dansk in
-  Twyn's settings under Look, Language. There's nothing to open. Twyn
-  reads its words from it.
+  Danish for Twyn Keyboard 3.4 or later. Install it next to Twyn and
+  Twyn switches to Danish. There's nothing to open: Twyn reads its words
+  from it. The mode button at the left of Twyn's bar switches languages.
 
   Type æ, ø and å with a and o, the way Danish phones always have, and the
   word comes back with its letters: "pa" gives "på" and "blabaer" gives

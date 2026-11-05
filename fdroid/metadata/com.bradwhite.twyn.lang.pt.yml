@@ -6,9 +6,9 @@ WebSite: https://bradleyw801.github.io/apps/
 Name: Twyn Português
 Summary: Portuguese for Twyn Keyboard
 Description: |
-  Portuguese for Twyn Keyboard. Install it next to Twyn, then pick
-  Português in Twyn's settings under Look, Language. There's nothing to
-  open. Twyn reads its words from it.
+  Portuguese for Twyn Keyboard 3.4 or later. Install it next to Twyn and
+  Twyn switches to Portuguese. There's nothing to open: Twyn reads its words
+  from it. The mode button at the left of Twyn's bar switches languages.
 
   Type ã, ç, é and the rest with their plain letters, and the word comes
   back with them: "nao" gives "não" and "coracao" gives "coração". Where

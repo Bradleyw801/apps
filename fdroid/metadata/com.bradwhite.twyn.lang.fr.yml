@@ -6,9 +6,9 @@ WebSite: https://bradleyw801.github.io/apps/
 Name: Twyn Français
 Summary: French for Twyn Keyboard
 Description: |
-  French for Twyn Keyboard. Install it next to Twyn, then pick Français in
-  Twyn's settings under Look, Language. There's nothing to open. Twyn
-  reads its words from it.
+  French for Twyn Keyboard 3.4 or later. Install it next to Twyn and
+  Twyn switches to French. There's nothing to open: Twyn reads its words
+  from it. The mode button at the left of Twyn's bar switches languages.
 
   Type é, è, à, ç and the rest with their plain letters, and the word
   comes back with them: "ca" gives "ça" and "cest" gives "c'est". The
